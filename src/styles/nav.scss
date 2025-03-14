@@ -1,0 +1,30 @@
+nav {
+    margin-bottom: 20px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        li {
+            text-decoration: none;
+            list-style: none;
+            
+            a {
+                color: var(--white);
+                font-weight: bold;
+                background-color: var(--darkBlue);
+                padding: 25px 70px;
+                font-size: 18px;
+            }
+        
+            a:hover {
+                background-color: var(--white);
+                color: var(--black);
+            }
+        }
+    }
+}
