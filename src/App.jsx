@@ -8,6 +8,7 @@ function App() {
   return (
     <Layout >
       <Routes>
+        {/* Kunne benyttet "/:slug" i path, med kun én Route for bedre dynamikk. */}
         <Route path="/html" element={<Resources category={"html"} />} />
         <Route path="/css" element={<Resources category={"css"} />} />
         <Route path="/javascript" element={<Resources category={"javascript"} />} />
