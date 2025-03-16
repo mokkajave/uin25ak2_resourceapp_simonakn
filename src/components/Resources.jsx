@@ -11,7 +11,7 @@ export default function Resources({category}) {
     
     return (
         <>
-        <PageTitle category={category}/>
+        <PageTitle category={category} />
         <ul id="links">
             {filteredCategory.map((source, index) => 
                 <li key={index}><a href={source.url}>{source.title}</a></li>)}
